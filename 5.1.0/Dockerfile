@@ -9,7 +9,8 @@ RUN yum install -y \
     libICE \
     libXrender \
     libXext \
-    cups-libs
+    cups-libs \
+    cairo
 
 ENV LIBREOFFICE_VERSION="5.1.0" \
 	LIBREOFFICE_VERSION_MINOR="5.1.0.3" \
